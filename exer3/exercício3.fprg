@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exerc&#237;cio3"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 12:58:48 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkROVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NTU6MDYgIjsyNjU0"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkROVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NTg6NDggIjsxOzI3NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numexpresso" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="numexpresso"/>
+            <if expression="numexpresso % 2 == 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero &quot;&amp;numexpresso&amp;&quot; &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero &quot;&amp;numexpresso&amp;&quot; n&#227;o &#233; par&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
