@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exerc&#237;cio 1"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 12:44:21 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkROVEI3NzQ7MjAyNS0wNC0wNzsiMTI6MzI6MTIgIjsyNjQ2"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkROVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDQ6MjEgIjsxOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numexpresso" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva um n&#250;mero&quot;" newline="True"/>
+            <input variable="numexpresso"/>
+            <if expression="numexpresso &gt; 0">
+                <then>
+                    <output expression="&quot;o n&#250;mero &quot;&amp;numexpresso&amp;&quot; &#233; maior de 0, ou seja positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o n&#250;mero &quot;&amp;numexpresso&amp;&quot; &#233; menor de 0, ou seja negativo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
