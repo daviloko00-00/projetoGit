@@ -1,5 +1,5 @@
 let numexpresso = parseInt(prompt("Digite um número: "));// Lê um número inteiro do usuário
-// Verifica se o número é positivo, negativo ou zero
+// Verifica se o número é multíplo de de 5 ou não
 if (numexpresso % 5 == 0) {
     alert("O número é múltiplo de 5.");
 }
